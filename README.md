@@ -45,7 +45,7 @@ The downloadable resume is `public/Chimezie-Ifeanyi-Samuel-CV.pdf`.
 
 ## Contact form
 
-The form is registered as `portfolio-contact` in both `index.html` and the React form. Netlify detects the static form during deployment and processes submissions without a custom backend. Form fields are `name`, `email`, `company`, `budget`, `message`, and the spam honeypot `bot-field`.
+The form is registered as `portfolio-contact` in both `index.html` and the React form. Netlify detects the static form during deployment and processes submissions without a custom backend. Form fields are `name`, `email`, `company`, `message`, and the spam honeypot `bot-field`.
 
 After deploying, enable form notifications in the Netlify project dashboard so new submissions are forwarded by email.
 

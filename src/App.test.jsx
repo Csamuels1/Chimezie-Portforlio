@@ -34,4 +34,14 @@ describe('portfolio', () => {
     fireEvent.click(screen.getByRole('button', { name: /send message/i }))
     expect(await screen.findByText(/message sent. i will get back/i)).toBeInTheDocument()
   })
+
+  it('uses the current contact links and simplified public details', () => {
+    render(<App />)
+    expect(screen.getByText('Available')).toBeInTheDocument()
+    expect(screen.queryByText('Years Experience')).not.toBeInTheDocument()
+    expect(screen.queryByLabelText('Budget range')).not.toBeInTheDocument()
+    expect(screen.getByRole('link', { name: 'GitHub' })).toHaveAttribute('href', 'https://github.com/Csamuels1')
+    expect(screen.getByRole('link', { name: 'WhatsApp' })).toHaveAttribute('href', 'https://wa.me/2349074593435')
+    expect(screen.getByRole('link', { name: /connect with me on linkedin/i })).toBeInTheDocument()
+  })
 })

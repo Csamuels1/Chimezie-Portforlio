@@ -64,7 +64,7 @@
 .tagline-word { display: inline-block; margin-right: .28em; }
 .tagline-word:nth-child(n+11):nth-child(-n+14) { color: var(--cream); }
 .hero-actions { display: flex; gap: 12px; }
-.stats-row { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); width: min(810px, 100%); margin-top: 63px; padding-top: 24px; border-top: 1px solid rgba(201,151,42,.15); }
+.stats-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); width: min(650px, 100%); margin-top: 63px; padding-top: 24px; border-top: 1px solid rgba(201,151,42,.15); }
 .stat { padding: 0 22px; border-left: 1px solid rgba(255,255,255,.08); }
 .stat:first-child { padding-left: 0; border: 0; }
 .stat strong { display: block; margin-bottom: 5px; color: var(--gold-light); font-family: 'Space Grotesk', sans-serif; font-size: 23px; }
@@ -204,6 +204,7 @@
 .social-links svg { width: 17px; }
 .contact-form { padding: clamp(28px, 4vw, 44px); border: 1px solid var(--border); background: rgba(15,32,49,.46); backdrop-filter: blur(12px); }
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.form-row--single { grid-template-columns: 1fr; }
 .contact-form label { display: flex; flex-direction: column; gap: 9px; margin-bottom: 18px; }
 .contact-form label > span { color: #bac2d1; font-family: 'JetBrains Mono', monospace; font-size: 9px; letter-spacing: .1em; text-transform: uppercase; }
 .contact-form input, .contact-form textarea, .contact-form select { width: 100%; color: var(--cream); border: 1px solid rgba(255,255,255,.1); border-radius: 0; outline: 0; background: rgba(7,18,29,.62); transition: border-color .5s, box-shadow .5s; }

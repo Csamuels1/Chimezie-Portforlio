@@ -51,9 +51,9 @@ export function Contact() {
             </div>
             <div className="social-links" aria-label="Social links">
               <a href="https://linkedin.com/in/ifeanyi-chimezie-604001220" target="_blank" rel="noreferrer" aria-label="LinkedIn"><BriefcaseBusiness /></a>
-              <a href="https://github.com/chimezie-ifeanyi" target="_blank" rel="noreferrer" aria-label="GitHub"><CodeXml /></a>
+              <a href="https://github.com/Csamuels1" target="_blank" rel="noreferrer" aria-label="GitHub"><CodeXml /></a>
               <a href="mailto:ichimezie7@gmail.com" aria-label="Email"><Mail /></a>
-              <a href="https://wa.me/2347046803829" target="_blank" rel="noreferrer" aria-label="WhatsApp"><MessageCircle /></a>
+              <a href="https://wa.me/2349074593435" target="_blank" rel="noreferrer" aria-label="WhatsApp"><MessageCircle /></a>
             </div>
           </div>
           <form className="contact-form" name="portfolio-contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={submitForm} data-reveal>
@@ -63,9 +63,8 @@ export function Contact() {
               <label><span>Name *</span><input type="text" name="name" autoComplete="name" required placeholder="Your name" /></label>
               <label><span>Email *</span><input type="email" name="email" autoComplete="email" required placeholder="you@company.com" /></label>
             </div>
-            <div className="form-row">
+            <div className="form-row form-row--single">
               <label><span>Company</span><input type="text" name="company" autoComplete="organization" placeholder="Company or team" /></label>
-              <label><span>Budget range</span><select name="budget" defaultValue=""><option value="" disabled>Select a range</option><option>$1k - $3k</option><option>$3k - $7k</option><option>$7k - $15k</option><option>$15k+</option><option>Full-time role</option></select></label>
             </div>
             <label><span>Message *</span><textarea name="message" required rows="6" placeholder="Tell me what you&apos;re building and where AI needs to fit." /></label>
             <button className={`button button--primary submit-button ${status === 'success' ? 'success' : ''}`} type="submit" disabled={status === 'submitting'}>

@@ -13,7 +13,6 @@ export const navigation = [
 ]
 
 export const stats = [
-  { value: '1+', count: 1, label: 'Years Experience' },
   { value: '6+', count: 6, label: 'Production Systems' },
   { value: '5+', count: 5, label: 'Technologies Mastered' },
   { value: 'Remote', label: 'Open to Roles' },

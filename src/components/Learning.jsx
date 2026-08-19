@@ -20,7 +20,7 @@ export function Learning() {
             </article>
           ))}
         </div>
-        <a className="learning-link" href="https://linkedin.com/in/ifeanyi-chimezie-604001220" target="_blank" rel="noreferrer">Documenting this journey publicly on LinkedIn <ArrowUpRight size={17} /></a>
+        <a className="learning-link" href="https://linkedin.com/in/ifeanyi-chimezie-604001220" target="_blank" rel="noreferrer">Connect with me on LinkedIn <ArrowUpRight size={17} /></a>
       </div>
     </section>
   )

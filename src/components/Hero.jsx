@@ -30,7 +30,7 @@ export function Hero({ children, isReady }) {
       <div className="hero-orbit hero-orbit--one" aria-hidden="true" />
       <div className="hero-orbit hero-orbit--two" aria-hidden="true" />
       <div className="hero-content">
-        <div className="availability hero-animate"><span />Available for Remote Work</div>
+        <div className="availability hero-animate"><span />Available</div>
         <p className="hero-kicker hero-animate">AI systems, engineered for impact.</p>
         <h1 id="hero-title" className="hero-name hero-animate">
           <span className="sr-only">{fullName}</span>
