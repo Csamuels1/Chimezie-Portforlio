@@ -56,8 +56,8 @@ The repository includes `netlify.toml` with the production build command, publis
 1. Import the GitHub repository into Netlify.
 2. Keep the detected build command as `npm run build` and publish directory as `dist`.
 3. Deploy and verify the contact form appears under Netlify Forms.
-4. Replace `https://chimezie-ifeanyi.netlify.app` in `public/sitemap.xml` and `public/robots.txt` if the final domain differs.
-5. Add the final absolute URL to Open Graph metadata when a permanent custom domain is available.
+4. The current production URL is `https://chimezie-ai-systems-portfolio.netlify.app`.
+5. Replace that URL in `index.html`, `public/sitemap.xml`, and `public/robots.txt` if a custom domain is connected later.
 
 ## Maintenance
 
