@@ -21,7 +21,6 @@ export function About() {
             <p className="about-lead">I&apos;m a mid-level AI Systems Engineer specialising in multi-agent architectures, LLM integration, and intelligent automation systems.</p>
             <p>I build AI that doesn&apos;t just respond - it reasons, plans, and executes across complex workflows. From autonomous Odoo ERP agents to voice-powered customer service systems, I&apos;ve shipped production AI that businesses actually depend on daily.</p>
             <p>I&apos;m expanding into Machine Learning engineering, Deep Learning, NLP, and MLOps - bridging the gap between AI automation and full-stack ML product development.</p>
-            <p>I&apos;m actively seeking remote roles where I can build serious AI infrastructure at global scale.</p>
             <div className="about-lists">
               <div className="about-list">
                 <div className="mini-heading"><Workflow size={17} /> What I&apos;m building with</div>
