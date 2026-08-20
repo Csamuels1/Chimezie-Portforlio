@@ -39,7 +39,7 @@ export function Contact() {
   return (
     <section id="contact" className="section contact-section">
       <div className="section-shell">
-        <SectionHeading index="07" eyebrow="Contact" title="Let&apos;s build something intelligent." description="I&apos;m actively looking for remote AI engineering roles and freelance projects. If you&apos;re building something that needs serious AI infrastructure, let&apos;s talk." />
+        <SectionHeading index="07" eyebrow="Contact" title="Let&apos;s build something intelligent." description="Building something that needs intelligent AI integration? Let&apos;s talk." />
         <div className="contact-grid">
           <div className="contact-details" data-reveal>
             <div className="availability availability--large"><span />Available now</div>
