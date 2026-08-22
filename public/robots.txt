@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://chimezie-ai-systems-portfolio.netlify.app/sitemap.xml
+Sitemap: https://chimezie-ai-systems.netlify.app/sitemap.xml

@@ -6,7 +6,7 @@ export function Experience() {
   return (
     <section id="experience" className="section experience-section">
       <div className="section-shell">
-        <SectionHeading index="02" eyebrow="Experience" title="Production work, not proof-of-concepts." description="AI systems designed for real operations, real users, and real consequences." />
+        <SectionHeading index="02" eyebrow="Experience" title="Production work." description="AI systems designed for real operations, real users, and real consequences." />
         <div className="timeline">
           <div className="timeline-line"><span /></div>
           <div className="timeline-node" aria-hidden="true"><span /></div>
